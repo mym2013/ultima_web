@@ -89,7 +89,7 @@ $(document).ready(function(){
     $("#posts").append(post);
   });
   
-  // selector de temas
+  // selector de temas  son los fondes de pantalla que apoyan la pagina
   
   
       var theme = $("#theme");
@@ -105,6 +105,11 @@ $(document).ready(function(){
       $("#to-blue").click(function(){
           theme.attr("href", "css/blue.css");
       });
+
+      $("#to-gray").click(function(){
+        theme.attr("href", "css/gris.css");
+    });
+
   
   
   //scroll arriba de la web

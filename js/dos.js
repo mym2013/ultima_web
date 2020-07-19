@@ -59,20 +59,26 @@ posts.forEach((item, index) => {
 // selector de temas
 
 
-    var theme = $("#theme");
+var theme = $("#theme");
 
-	$("#to-green").click(function(){
-		theme.attr("href", "css/green.css");
-	});
+      
+    $("#to-green").click(function(){
+        theme.attr("href", "css/green.css");
+        
+    });
 
-	$("#to-red").click(function(){
-		theme.attr("href", "css/red.css");
-	});
+    $("#to-red").click(function(){
+        theme.attr("href", "css/red.css");
+        
+    });
 
-	$("#to-blue").click(function(){
-		theme.attr("href", "css/blue.css");
-	});
+    $("#to-blue").click(function(){
+        theme.attr("href", "css/blue.css");
+    });
 
+    $("#to-gray").click(function(){
+      theme.attr("href", "css/gris.css");
+    });
 
 //scroll arriba de la web
 $(".subir").click(function(e){
