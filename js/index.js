@@ -23,7 +23,7 @@ $(document).ready(function(){
             
             
             date: "publicado el día " + moment().date() +" "+ moment().format("MMMM") + "  del año " + moment().format("YYYY"),
-            content:"Tdchile ingeniería nace en el año 2006, para entregar soluciones en el ámbito de la industria de las telecomunicaciones abordando primeramente los requerimientos del específicos del levantamiento de procesos y procedimientos. Desde ese momento se instaló como un sólido apoyo a ENTEL para muchas de sus áreas logrando abordar problemas tradicionales con herramientas de diagramas de procesos, que posteriormente derivarían en la ya conocida BPMB.... " ,
+            content:"Tdchile ingeniería nace en el año 2006, para entregar soluciones en el ámbito de la industria de las telecomunicaciones abordando primeramente los requerimientos específicos   de procesos y procedimientos. Desde ese momento se instaló como un sólido apoyo a ENTEL para muchas de sus áreas logrando abordar problemas tradicionales con herramientas de diagramas de procesos, que posteriormente derivarían en la ya conocida BPMB.... " ,
          
             
             leermas:'paginas/sobre_tdchile.html',

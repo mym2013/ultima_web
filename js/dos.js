@@ -20,7 +20,26 @@ $(document).ready(function(){
       var posts=[
         { title:' Nuestra Historia tdchile ingeniería',
           date: "publicado el día " + moment().date() +" "+ moment().format("MMMM") + "  del año " + moment().format("YYYY"),
-          content:"Tdchile ingeniería nace en el año 2006, para entregar soluciones en el ámbito de la industria de las telecomunicaciones abordando primeramente los requerimientos específicos relacionados con el levantamiento de procesos y procedimientos. Desde ese momento se instaló como un sólido apoyo a ENTEL para muchas de sus áreas, logrando abordar problemas tradicionales con herramientas de diagramas de procesos que, posteriormente derivarían en la ya conocida BPMB (https://es.wikipedia.org/wiki/Business_Process_Model_and_Notation), en este camino, surgieron nuevas formas de abordar los distintos problemas como la creación de videos de capacitación tan normal hoy en día, pero por allá en el 2007, aun no se consideraba esta práctica tan extendida, -recordar que youTube fue fundada en el 2005- Además de incorporar en ese momento equipos multidisciplinarios, efectuando en ese entonces actividades muy parecidas y hoy estandarizadas  a través de metodologías como AGILE, SCRUM, (recordar  que hoy existe un completo estándar a través de una institución de prestigio como lo es:  Project Management institute PMI de sus siglas en inglés (https://es.wikipedia.org/wiki/Project_Management_Institute) de esa forma tdchile fue ganando terreno que le permitió crecer y lo mejor de todo, la satisfacción de poder brindar soluciones de calidad  respetando los tiempos acordados con clientes. Hoy en día TDCHILE está tratando como todas las empresas de mantenerse activa, y encarando tiempos difíciles como los que vive el mundo y la sociedad ahora en este año 2020; si le interesan nuestros productos o tiene cualquier consulta, no  dude en enviarnos un correo a nuestra casilla electrónica de contacto.",
+          content:"Tdchile ingeniería nace en el año 2006, para entregar soluciones"+
+          " en el ámbito de la industria de las telecomunicaciones abordando primeramente "+
+          " los requerimientos específicos relacionados con el levantamiento de procesos y "+
+          " procedimientos. Desde ese momento se instaló como un sólido apoyo a ENTEL para"+
+          " muchas de sus áreas, logrando abordar problemas tradicionales con herramientas de"+
+          " diagramas de procesos que, posteriormente derivarían en la ya conocida"+
+          ' <a href="https://es.wikipedia.org/wiki/Business_Process_Model_and_Notation">BPMN</a>, en este camino,'+
+          " surgieron nuevas formas de abordar los distintos problemas como la creación de videos de "+
+          "capacitación tan normal hoy en día, pero por allá en el 2007, aun no se consideraba esta "+
+          " práctica tan extendida, -recordar que youTube fue fundada en el 2005- Además de incorporar "+
+          " en ese momento equipos multidisciplinarios, efectuando en ese entonces actividades muy"+
+          " parecidas y las que hoy estan estandarizadas  a través de metodologías como AGILE, SCRUM, a través de la prestigiosa:  Project Management institute "+
+          " (recordar  que hoy existe un completo estándar a través de   "+
+          ' <a href="https://es.wikipedia.org/wiki/Project_Management_Institute)"> PMI</a>'+
+          " (de sus siglas en inglés)  de esa forma tdchile fue " +
+          " ganando terreno que le permitió crecer y lo mejor de todo, la satisfacción de poder brindar"+
+          " soluciones de calidad  respetando los tiempos acordados con clientes. Hoy en día TDCHILE está"+
+          " tratando como todas las empresas de mantenerse activa, y encarando tiempos difíciles como los"+
+          " que vive el mundo y la sociedad ahora en este año 2020. Si le interesan nuestros productos o tiene"+
+          " cualquier consulta, no  dude en enviarnos un correo a nuestra casilla electrónica de contacto.",
           leermas:'../index.html',
         },
         { title:' Nuestro Equipo',
@@ -41,9 +60,10 @@ $(document).ready(function(){
    
       "También y de forma general utilizamos las metodologías asociadas al PMI "+
       "(El Project Management Institute)  que es una asociación estadounidense  sin fines de lucro que asocia profesionales"+
-      " relacionados con la gestión de proyectos, para ello nosotros utilizamos como guía el PMBOK"+
+      " relacionados con la gestión de proyectos, para ello nosotros utilizamos como guía el "+
+       '<a href="https://es.wikipedia.org/wiki/Gu%C3%ADa_de_los_fundamentos_para_la_direcci%C3%B3n_de_proyectos">PMBOK</a>'+
         " (Project Management Body of Knowledge, de sus siglas en ingles) el cual contiene  tiene TODAS " +
-        "las fases del área del  conocimiento del proyectos desde su inicio, palnificación, ejecución, Monitoreo y control y cierre.",
+        "las fases de las áreas del conocimiento de proyectos desde su inicio, palnificación, ejecución, Monitoreo, control y cierre.",
       
       leermas:'../index.html',
     },
