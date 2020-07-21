@@ -35,12 +35,12 @@ $(document).ready(function(){
         },
           { title:'Nuestros Clientes',
             date: "publicado el día " + moment().date() +" "+ moment().format("MMMM") + "  del año " + moment().format("YYYY"),
-            content:"A lo largo de los años hemos tenido una gran cantidad de clientes de distintas industrias, pero nuestro mayor desempeño ha sido  en el ambito de las telecomunicaciones, con al menos un 75% de nuestros proyectos en esta línea, luego siguen otras industrias destacadas como la minería, y la industria de compra y venta de automóviles. Sí desea saber de nuestros principales clientes puede visitar la sección nuestros clientes en el link abajo (leer más)",
+            content:"A lo largo de los años hemos tenido una gran cantidad de clientes de distintas industrias, pero nuestro mayor desempeño ha sido  en el ambito de las telecomunicaciones, con al menos un 75% de nuestros proyectos, en esta línea luego siguen otras industrias destacadas, como la minería, y la industria de compra y venta de automóviles. Sí desea saber de nuestros principales clientes puede visitar la sección nuestros clientes en el link abajo (leer más)",
             leermas:'paginas/clientes.html'
           },
           { title:'Noticias',
             date: "publicado el día " + moment().date() +" "+ moment().format("MMMM") + "  del año " + moment().format("YYYY"),
-            content:"En nuestra sección noticias podrás encontrar información de tecnologías, contingencia, y actividades para capacitarte, presiona leer mas abajo, y encuentra novedades interesantes.",
+            content:"En nuestra sección noticias podrás encontrar información de tecnologías, contingencia, y otras actividades, presiona leer mas abajo, y encuentra novedades interesantes.",
             leermas:'paginas/noticias.html'
           },
   

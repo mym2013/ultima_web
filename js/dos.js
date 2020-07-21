@@ -26,14 +26,14 @@ $(document).ready(function(){
           " procedimientos. Desde ese momento se instaló como un sólido apoyo a ENTEL para"+
           " muchas de sus áreas, logrando abordar problemas tradicionales con herramientas de"+
           " diagramas de procesos que, posteriormente derivarían en la ya conocida"+
-          ' <a href="https://es.wikipedia.org/wiki/Business_Process_Model_and_Notation">BPMN</a>, en este camino,'+
+          ' <a href="https://es.wikipedia.org/wiki/Business_Process_Model_and_Notation" target="_blank">BPMN</a>, en este camino,'+
           " surgieron nuevas formas de abordar los distintos problemas como la creación de videos de "+
           "capacitación tan normal hoy en día, pero por allá en el 2007, aun no se consideraba esta "+
           " práctica tan extendida, -recordar que youTube fue fundada en el 2005- Además de incorporar "+
           " en ese momento equipos multidisciplinarios, efectuando en ese entonces actividades muy"+
           " parecidas y las que hoy estan estandarizadas  a través de metodologías como AGILE, SCRUM, a través de la prestigiosa:  Project Management institute "+
           " (recordar  que hoy existe un completo estándar a través de   "+
-          ' <a href="https://es.wikipedia.org/wiki/Project_Management_Institute)"> PMI</a>'+
+          ' <a href="https://es.wikipedia.org/wiki/Project_Management_Institute)" target="_blank"> PMI</a>'+
           " (de sus siglas en inglés)  de esa forma tdchile fue " +
           " ganando terreno que le permitió crecer y lo mejor de todo, la satisfacción de poder brindar"+
           " soluciones de calidad  respetando los tiempos acordados con clientes. Hoy en día TDCHILE está"+
@@ -61,7 +61,7 @@ $(document).ready(function(){
       "También y de forma general utilizamos las metodologías asociadas al PMI "+
       "(El Project Management Institute)  que es una asociación estadounidense  sin fines de lucro que asocia profesionales"+
       " relacionados con la gestión de proyectos, para ello nosotros utilizamos como guía el "+
-       '<a href="https://es.wikipedia.org/wiki/Gu%C3%ADa_de_los_fundamentos_para_la_direcci%C3%B3n_de_proyectos">PMBOK</a>'+
+       '<a href="https://es.wikipedia.org/wiki/Gu%C3%ADa_de_los_fundamentos_para_la_direcci%C3%B3n_de_proyectos" target="_blank">PMBOK</a>'+
         " (Project Management Body of Knowledge, de sus siglas en ingles) el cual contiene  tiene TODAS " +
         "las fases de las áreas del conocimiento de proyectos desde su inicio, palnificación, ejecución, Monitoreo, control y cierre.",
       

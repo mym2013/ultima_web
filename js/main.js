@@ -23,21 +23,21 @@ $(document).ready(function(){
           content:"posibles tratamientos, vacunas y hallazgos, dan esperanza para resolver dentro del 2020,  la obtención de una vacuna que permitiría volver a la normalidad "+
           
           '<img src="../img/vacuna3.jpg" alt="vacuna">'+
-          '<a href="https://cnnespanol.cnn.com/2020/07/20/buenas-noticias-en-la-lucha-contra-el-coronavirus-posibles-tratamientos-vacunas-y-hallazgos/"><img src="../img/cnn3.png" alt="vacuna"></a>',
+          '<a href="https://cnnespanol.cnn.com/2020/07/20/buenas-noticias-en-la-lucha-contra-el-coronavirus-posibles-tratamientos-vacunas-y-hallazgos/" target="_blank"><img src="../img/cnn3.png" alt="vacuna"></a>',
           leermas:'paginas/sobre_tdchile.html',
         },
         { title:'Hackeo Masivo a las cuentas de  los super ricos y famosos',
           date: "publicado el día " + moment().date() +" "+ moment().format("MMMM") + "  del año " + moment().format("YYYY"),
           content:" Hackean las cuentas de los super famosos en Twitter para realizar etafas con bitcoin "+
           '<img src="../img/hakeo.jpg" alt="diagrama hackeo famosos">'+
-          '<a href="https://www.abc.es/tecnologia/abci-hackean-cuentas-twitter-bill-gates-obama-y-otros-famosos-para-realizar-estafas-criptomonedas-202007160607_noticia.html"><img src="../img/abcnews.jpg" alt="sitio noticias"></a>',
+          '<a href="https://www.abc.es/tecnologia/abci-hackean-cuentas-twitter-bill-gates-obama-y-otros-famosos-para-realizar-estafas-criptomonedas-202007160607_noticia.html" target="_blank"><img src="../img/abcnews.jpg" alt="sitio noticias"></a>',
           leermas:'pginas/clientes.html'
         },
         { title:'Las Babosas abren la puerta a una cicatrización mas eficientes de las heridas de los humanos',
           date: "publicado el día " + moment().date() +" "+ moment().format("MMMM") + "  del año " + moment().format("YYYY"),
           content:" El trabajo conjunto de dos prestigiosas Universidades para crear un pegamento médico revolucionario fuertemente adhesivo inspirado en las babosas"+
           '<img src="../img/babosas4.jpg" alt="babosas y medicina">'+
-          '<a href="https://www.imnovation-hub.com/es/ciencia-y-tecnologia/babosas-abren-puerta-a-cicatrizacion-mas-eficiente/"> <img src="../img/sitioNews.jpg" alt="sitio noticias"></a>',
+          '<a href="https://www.imnovation-hub.com/es/ciencia-y-tecnologia/babosas-abren-puerta-a-cicatrizacion-mas-eficiente/" target="_blank"> <img src="../img/sitioNews.jpg" alt="sitio noticias"></a>',
           leermas:'paginas/noticias.html'
         },
 
