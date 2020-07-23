@@ -13,7 +13,7 @@ list-style: none;
 
 
 body{
-background: url(../img/hojas.jpg);
+background: url(../img/fondo_tech_verde2.jpg);
 background-attachment: fixed;
 
 }
@@ -218,13 +218,14 @@ footer{
   top:45%;
   background: rgba(51,51,51,0.5);
   width: 50px;
-  height:100px;
+  height:133px;
 
 }
 
 #to-green,
 #to-red,
-#to-blue{
+#to-blue,
+#to-gray{
 width: 25px;
 height: 25px;
 border: 1px solid white;
@@ -247,6 +248,9 @@ cursor: pointer;
     background: #1F87c4;
   }
 
+#to-gray {
+    background: grey;
+  }
 
   .subir {
     color: ivory;

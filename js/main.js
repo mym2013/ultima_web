@@ -18,19 +18,26 @@ $(document).ready(function(){
         4-. un leer mas que agregue yo */
 
       var posts=[
-        { title:' Noticia1',
+        { title:' Buenas noticias en la lucha contra el COVID 19',
           date: "publicado el día " + moment().date() +" "+ moment().format("MMMM") + "  del año " + moment().format("YYYY"),
-          content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur metus ex, eget vulputate leo volutpat in. Maecenas bibendum, nunc et porttitor faucibus, ex mi venenatis dolor, pretium dapibus orci neque sit amet dolor. Nam interdum massa id lacus ultrices malesuada. In massa arcu, efficitur rutrum iaculis ac, porttitor pharetra arcu. Proin laoreet eleifend lectus, rutrum ultricies tortor tincidunt id. Praesent vitae lacinia felis. Quisque commodo velit tempus enim laoreet, a posuere magna luctus. Duis et pellentesque lorem. Proin consequat vitae libero nec pellentesque.",
+          content:"posibles tratamientos, vacunas y hallazgos, dan esperanza para resolver dentro del 2020,  la obtención de una vacuna que permitiría volver a la normalidad "+
+          
+          '<img src="../img/vacuna3.jpg" alt="vacuna">'+
+          '<a href="https://cnnespanol.cnn.com/2020/07/20/buenas-noticias-en-la-lucha-contra-el-coronavirus-posibles-tratamientos-vacunas-y-hallazgos/" target="_blank"><img src="../img/cnn3.png" alt="vacuna"></a>',
           leermas:'paginas/sobre_tdchile.html',
         },
-        { title:'Noticia2',
+        { title:'Hackeo Masivo a las cuentas de  los super ricos y famosos',
           date: "publicado el día " + moment().date() +" "+ moment().format("MMMM") + "  del año " + moment().format("YYYY"),
-          content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur metus ex, eget vulputate leo volutpat in. Maecenas bibendum, nunc et porttitor faucibus, ex mi venenatis dolor, pretium dapibus orci neque sit amet dolor. Nam interdum massa id lacus ultrices malesuada. In massa arcu, efficitur rutrum iaculis ac, porttitor pharetra arcu. Proin laoreet eleifend lectus, rutrum ultricies tortor tincidunt id. Praesent vitae lacinia felis. Quisque commodo velit tempus enim laoreet, a posuere magna luctus. Duis et pellentesque lorem. Proin consequat vitae libero nec pellentesque.",
-          leermas:'paginas/clientes.html'
+          content:" Hackean las cuentas de los super famosos en Twitter para realizar etafas con bitcoin "+
+          '<img src="../img/hakeo.jpg" alt="diagrama hackeo famosos">'+
+          '<a href="https://www.abc.es/tecnologia/abci-hackean-cuentas-twitter-bill-gates-obama-y-otros-famosos-para-realizar-estafas-criptomonedas-202007160607_noticia.html" target="_blank"><img src="../img/abcnews.jpg" alt="sitio noticias"></a>',
+          leermas:'pginas/clientes.html'
         },
-        { title:'Noticia3',
+        { title:'Las Babosas abren la puerta a una cicatrización mas eficientes de las heridas de los humanos',
           date: "publicado el día " + moment().date() +" "+ moment().format("MMMM") + "  del año " + moment().format("YYYY"),
-          content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur metus ex, eget vulputate leo volutpat in. Maecenas bibendum, nunc et porttitor faucibus, ex mi venenatis dolor, pretium dapibus orci neque sit amet dolor. Nam interdum massa id lacus ultrices malesuada. In massa arcu, efficitur rutrum iaculis ac, porttitor pharetra arcu. Proin laoreet eleifend lectus, rutrum ultricies tortor tincidunt id. Praesent vitae lacinia felis. Quisque commodo velit tempus enim laoreet, a posuere magna luctus. Duis et pellentesque lorem. Proin consequat vitae libero nec pellentesque.",
+          content:" El trabajo conjunto de dos prestigiosas Universidades para crear un pegamento médico revolucionario fuertemente adhesivo inspirado en las babosas"+
+          '<img src="../img/babosas4.jpg" alt="babosas y medicina">'+
+          '<a href="https://www.imnovation-hub.com/es/ciencia-y-tecnologia/babosas-abren-puerta-a-cicatrizacion-mas-eficiente/" target="_blank"> <img src="../img/sitioNews.jpg" alt="sitio noticias"></a>',
           leermas:'paginas/noticias.html'
         },
 

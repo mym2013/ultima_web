@@ -22,38 +22,64 @@ $(document).ready(function(){
           { title:' Clientes destacados:',
             picture_logo:' <img src="../img/entel.png" alt="logo cliente entel">',
             date: "publicado el día " + moment().date() +" "+ moment().format("MMMM") + "  del año " + moment().format("YYYY"),
-            content:"ENTEL es apmliamente conocida en la industria de las telcomunicaciones, consectetur adipiscing elit. Nulla consectetur metus ex, eget vulputate leo volutpat in. Maecenas bibendum, nunc et porttitor faucibus, ex mi venenatis dolor, pretium dapibus orci neque sit amet dolor. Nam interdum massa id lacus ultrices malesuada. In massa arcu, efficitur rutrum iaculis ac, porttitor pharetra arcu. Proin laoreet eleifend lectus, rutrum ultricies tortor tincidunt id. Praesent vitae lacinia felis. Quisque commodo velit tempus enim laoreet, a posuere magna luctus. Duis et pellentesque lorem. Proin consequat vitae libero nec pellentesque.",
+            content:'<a href="https://es.wikipedia.org/wiki/Entel_Chile" target="_blank">ENTEL</a> es ampliamente conocida en la industria de las telcomunicaciones,'+
+            "fué fundada en 1964 como empresa estatal hasta su completa privatización en 1992, hoy en día es una"+
+            " de las empresas más grandes de la insdustría de las telecomunicaciones en Chile, con una fuerte presencia en soluciones"+
+            " tecnológicas, y telefonía celular, esta empresa es controlada por Inversores Chilenos como el grupo almendral y el grupo Matte" ,
             
           },
           { title:'',
             picture_logo:'<img src="../img/vtr.png" alt="logo cliente VTR">',
             date: "publicado el día " + moment().date() +" "+ moment().format("MMMM") + "  del año " + moment().format("YYYY"),
-            content:"VTR es otra de las grandes empresas  amet, consectetur adipiscing elit. Nulla consectetur metus ex, eget vulputate leo volutpat in. Maecenas bibendum, nunc et porttitor faucibus, ex mi venenatis dolor, pretium dapibus orci neque sit amet dolor. Nam interdum massa id lacus ultrices malesuada. In massa arcu, efficitur rutrum iaculis ac, porttitor pharetra arcu. Proin laoreet eleifend lectus, rutrum ultricies tortor tincidunt id. Praesent vitae lacinia felis. Quisque commodo velit tempus enim laoreet, a posuere magna luctus. Duis et pellentesque lorem. Proin consequat vitae libero nec pellentesque.",
+            content:'<a href="https://es.wikipedia.org/wiki/VTR_(empresa)" target="_blank">VTR</a> es una empresa de  telcomunicaciones, chilena '+
+            "fundada en 1928 bajo el nombre Vía Trans Radio Chilena Compañía de Radiotelegrafía y que fué muy conocida por liderar "+
+            " a comienzos de la primera decada del siglo XXI el crecimiento de las empresas de la insdustría, innovando por esos años"+
+            " con su producto triple pack en el que ofrecía telefonía fija, internet y TV cable, durante este fuerte periodo de expansión "+ 
+            "incorporó a Metropolis intercom haciendose mas fuerte en este sector; ya en el 2010 ingresa a la televisión digital,ga tele "+
+            " no sin polémica, tema que le costaría un pleito judicial con TVN,(televión nacional de chile) que finalmente lograron resolver " +
+            " VTR, estuvo en manos de capitales estadounidenses, en un 100% a través de Liberty Global, pero hoy en día comparte un 20% con el empresario nacional Alvaro Saieh",
             
           },
           { title:'',
           picture_logo:'<img src="../img/omega3.png" alt="logo cliente OMEGA">',
             date: "publicado el día " + moment().date() +" "+ moment().format("MMMM") + "  del año " + moment().format("YYYY"),
-            content:"Omega telecom es una de las mas grandes empresas de servicios"+
-            " que asiste a las, consectetur adipiscing elit. Nulla consectetur metus ex, eget vulputate leo volutpat in. Maecenas bibendum, nunc et porttitor faucibus, ex mi venenatis dolor, pretium dapibus orci neque sit amet dolor. Nam interdum massa id lacus ultrices malesuada. In massa arcu, efficitur rutrum iaculis ac, porttitor pharetra arcu. Proin laoreet eleifend lectus, rutrum ultricies tortor tincidunt id. Praesent vitae lacinia felis. Quisque commodo velit tempus enim laoreet, a posuere magna luctus. Duis et pellentesque lorem. Proin consequat vitae libero nec pellentesque.",
-           
+            content:'<a href="http://www2.omegatelecom.cl/" target="_blank">OMEGA TELECOM</a> es una empresa del rubro de las telecomunicaciones que presta '+
+            " servicios a las grandes compañías telco en chile, tiene gran impacto en tres grandes productos: el primero es la de "+
+            "apoyar toda la cadena de provisión y retiro de servicios, el segundo es el de remozamiento de equipos, y el tercero es"+
+            " aportar con todos los elementos de ferretería para la instalación de servicios, actualmente cuenta con mas de 400 empleados, "+
+            " esta ubicada en la comuna de Cerrillos en la región metropolitana y es controlada en un 100% por capitales nacionales",
           },
           { title:'',
-          picture_logo:' <img src="../img/miuraautos.png" alt="logo cliente miura autos">',
+          picture_logo:' <img src="../img/inalco.jpg" alt="logo cliente miura autos">',
           date: "publicado el día " + moment().date() +" "+ moment().format("MMMM") + "  del año " + moment().format("YYYY"),
-          content:"Miura autos fué un importante concesionario de General Motors para las marcas Chevrolet; OPel e IZUZU, consectetur adipiscing elit. Nulla consectetur metus ex, eget vulputate leo volutpat in. Maecenas bibendum, nunc et porttitor faucibus, ex mi venenatis dolor, pretium dapibus orci neque sit amet dolor. Nam interdum massa id lacus ultrices malesuada. In massa arcu, efficitur rutrum iaculis ac, porttitor pharetra arcu. Proin laoreet eleifend lectus, rutrum ultricies tortor tincidunt id. Praesent vitae lacinia felis. Quisque commodo velit tempus enim laoreet, a posuere magna luctus. Duis et pellentesque lorem. Proin consequat vitae libero nec pellentesque.",
+          content:' <a href="https://chevroletinalco.cl/" target="_blank">INALCO</a> es un importante concesionario de General Motors para las marcas Chevrolet;'+
+           " Opel e IZUZU,  actualmente controlados por los capitales de Grass & Arueste, que también maneja otras marcas como Kia. "+
+           " a partir del 2016 comenzó una alianza estratégica para comercializar las marcas Voskswagen y Porshe, ya que Inalco está dentro" +
+           " de los cuatro más grandes de Chevrolet, fué elgida para ser un socio estratégico en chile para las marcas europeas antes citadas  "+
+           " ",
+           
          
         },
         { title:'',
         picture_logo:' <img src="../img/previser.png" alt="logo cliente previser">',
         date: "publicado el día " + moment().date() +" "+ moment().format("MMMM") + "  del año " + moment().format("YYYY"),
-        content:"Una de las empresas de servicios más especializadas en el menejo en la  recuperación de montos por licencias medicas, consectetur adipiscing elit. Nulla consectetur metus ex, eget vulputate leo volutpat in. Maecenas bibendum, nunc et porttitor faucibus, ex mi venenatis dolor, pretium dapibus orci neque sit amet dolor. Nam interdum massa id lacus ultrices malesuada. In massa arcu, efficitur rutrum iaculis ac, porttitor pharetra arcu. Proin laoreet eleifend lectus, rutrum ultricies tortor tincidunt id. Praesent vitae lacinia felis. Quisque commodo velit tempus enim laoreet, a posuere magna luctus. Duis et pellentesque lorem. Proin consequat vitae libero nec pellentesque.",
+        content:'<a href="http://www.previser.cl/" target="_blank">PREVISER</a>'+
+        " Previser es una empresa chilena, especialista en la externalización de procesos relacionados con la recuperación, "+
+        " de licencias médicas, cálculos de subsidios por incapacidad laboral, recuperación de pagos en exceso a Isapres"+
+        " AFP, mutuales y cajas de compensación actualmente posee grandes clientes como bancos y corporaciones con muchos empleados"+
+        " dónde el manejo de estos conceptos requiere la participación de elementos expertos en la materia, es considerada una empresa mediana con alrededor de 45 empleados y de capitales nacionales",
         
       },
       { title:'',
       picture_logo:' <img src="../img/tecno.png" alt="logo cliente tecnoimagen">',
       date: "publicado el día " + moment().date() +" "+ moment().format("MMMM") + "  del año " + moment().format("YYYY"),
-      content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur metus ex, eget vulputate leo volutpat in. Maecenas bibendum, nunc et porttitor faucibus, ex mi venenatis dolor, pretium dapibus orci neque sit amet dolor. Nam interdum massa id lacus ultrices malesuada. In massa arcu, efficitur rutrum iaculis ac, porttitor pharetra arcu. Proin laoreet eleifend lectus, rutrum ultricies tortor tincidunt id. Praesent vitae lacinia felis. Quisque commodo velit tempus enim laoreet, a posuere magna luctus. Duis et pellentesque lorem. Proin consequat vitae libero nec pellentesque.",
+      content:'<a href="https://www.tecnoimagen.cl/" target="_blank">TECNOIMAGEN</a>'+
+        " Es una empresa nacional del rubro de la salud fundada en 1997,que brinda servicios en el ámbito de la imageneología, actualmente " +
+        ' cuenta con la representación en chile de <a href="https://global.medical.canon/" target="_blank">Canon Medical System</a> y '+
+        " dentro de sus productos destacados cuentan con Tomografías computarizadas, Resonancias Nuclear Magnéticas"+
+        " equipos de ultrasonido y equipamientos radiológicos. Desde el año 2005 cuenta con otra marca importante de la industria"+
+        ' como la estadounidense <a href="https://www.hologic.com/" target="_blank">Hologic inc</a>. la cual se especializa en el cuidado de la mujer, con productos como mamografías digitales'+
+        " Sistemas de biopsias estereotoráxica entre otros.",
       
     },
   

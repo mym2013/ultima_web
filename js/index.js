@@ -23,22 +23,24 @@ $(document).ready(function(){
             
             
             date: "publicado el día " + moment().date() +" "+ moment().format("MMMM") + "  del año " + moment().format("YYYY"),
-            content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur metus ex, eget vulputate leo volutpat in. Maecenas bibendum, nunc et porttitor faucibus, ex mi venenatis dolor, pretium dapibus orci neque sit amet dolor. Nam interdum massa id lacus ultrices malesuada. In massa arcu, efficitur rutrum iaculis ac, porttitor pharetra arcu. Proin laoreet eleifend lectus, rutrum ultricies tortor tincidunt id. Praesent vitae lacinia felis. Quisque commodo velit tempus enim laoreet, a posuere magna luctus. Duis et pellentesque lorem. Proin consequat vitae libero nec pellentesque.",
+            content:"Tdchile ingeniería nace en el año 2006, para entregar soluciones en el ámbito de la industria de las telecomunicaciones abordando primeramente los requerimientos específicos   de procesos y procedimientos. Desde ese momento se instaló como un sólido apoyo a ENTEL para muchas de sus áreas logrando abordar problemas tradicionales con herramientas de diagramas de procesos, que posteriormente derivarían en la ya conocida BPMB.... " ,
+         
+            
             leermas:'paginas/sobre_tdchile.html',
           },
           { title:'Nuestros Servicios',
           date: "publicado el día " + moment().date() +" "+ moment().format("MMMM") + "  del año " + moment().format("YYYY"),
-          content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur metus ex, eget vulputate leo volutpat in. Maecenas bibendum, nunc et porttitor faucibus, ex mi venenatis dolor, pretium dapibus orci neque sit amet dolor. Nam interdum massa id lacus ultrices malesuada. In massa arcu, efficitur rutrum iaculis ac, porttitor pharetra arcu. Proin laoreet eleifend lectus, rutrum ultricies tortor tincidunt id. Praesent vitae lacinia felis. Quisque commodo velit tempus enim laoreet, a posuere magna luctus. Duis et pellentesque lorem. Proin consequat vitae libero nec pellentesque.",
+          content:"Nuestros servicios tienen un  contexto tecnológico, dónde somos muy fuertes en el ámbito del levantamiento de procesos y procedimientos, lo cual es clave para todo tipo de mejoras continuas, modificaciones de procesos sistémicos, e incluso administrativos, detección de fallas, diseño de medidores de desempeño, y automatizaciones de tareas complejas...",
           leermas:'paginas/nuestros_servicios.html'
         },
           { title:'Nuestros Clientes',
             date: "publicado el día " + moment().date() +" "+ moment().format("MMMM") + "  del año " + moment().format("YYYY"),
-            content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur metus ex, eget vulputate leo volutpat in. Maecenas bibendum, nunc et porttitor faucibus, ex mi venenatis dolor, pretium dapibus orci neque sit amet dolor. Nam interdum massa id lacus ultrices malesuada. In massa arcu, efficitur rutrum iaculis ac, porttitor pharetra arcu. Proin laoreet eleifend lectus, rutrum ultricies tortor tincidunt id. Praesent vitae lacinia felis. Quisque commodo velit tempus enim laoreet, a posuere magna luctus. Duis et pellentesque lorem. Proin consequat vitae libero nec pellentesque.",
+            content:"A lo largo de los años hemos tenido una gran cantidad de clientes de distintas industrias, pero nuestro mayor desempeño ha sido  en el ambito de las telecomunicaciones, con al menos un 75% de nuestros proyectos, en esta línea luego siguen otras industrias destacadas, como la minería, y la industria de compra y venta de automóviles. Sí desea saber de nuestros principales clientes puede visitar la sección nuestros clientes en el link abajo (leer más)",
             leermas:'paginas/clientes.html'
           },
           { title:'Noticias',
             date: "publicado el día " + moment().date() +" "+ moment().format("MMMM") + "  del año " + moment().format("YYYY"),
-            content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur metus ex, eget vulputate leo volutpat in. Maecenas bibendum, nunc et porttitor faucibus, ex mi venenatis dolor, pretium dapibus orci neque sit amet dolor. Nam interdum massa id lacus ultrices malesuada. In massa arcu, efficitur rutrum iaculis ac, porttitor pharetra arcu. Proin laoreet eleifend lectus, rutrum ultricies tortor tincidunt id. Praesent vitae lacinia felis. Quisque commodo velit tempus enim laoreet, a posuere magna luctus. Duis et pellentesque lorem. Proin consequat vitae libero nec pellentesque.",
+            content:"En nuestra sección noticias podrás encontrar información de tecnologías, contingencia, y otras actividades, presiona leer mas abajo, y encuentra novedades interesantes.",
             leermas:'paginas/noticias.html'
           },
   
@@ -89,7 +91,7 @@ $(document).ready(function(){
     $("#posts").append(post);
   });
   
-  // selector de temas
+  // selector de temas  son los fondes de pantalla que apoyan la pagina
   
   
       var theme = $("#theme");
@@ -105,6 +107,11 @@ $(document).ready(function(){
       $("#to-blue").click(function(){
           theme.attr("href", "css/blue.css");
       });
+
+      $("#to-gray").click(function(){
+        theme.attr("href", "css/gris.css");
+    });
+
   
   
   //scroll arriba de la web
