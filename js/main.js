@@ -18,10 +18,17 @@ $(document).ready(function(){
         4-. un leer mas que agregue yo */
 
       var posts=[
+        { title:' Aprobado Retiro de Fondos de las AFP',
+          date: "publicado el día " + moment().date() +" "+ moment().format("MMMM") + "  del año " + moment().format("YYYY"),
+          content:"Se aprueba el retiro de fondos de las AFP, sepa cómo retirar su dinero"+
+          '<img src="../img/retiroAFP3.jpg" alt="AFP">'+
+          '<a href="https://www.t13.cl/noticia/nacional/retiro-pensiones-AFP-cuando-se-puede-cobrar-dinero-ley-24-07-2020" target="_blank"><img src="../img/canal13.jpg" alt="canal13"></a>',
+          leermas:'paginas/sobre_tdchile.html',
+         
+        },
         { title:' Buenas noticias en la lucha contra el COVID 19',
           date: "publicado el día " + moment().date() +" "+ moment().format("MMMM") + "  del año " + moment().format("YYYY"),
           content:"posibles tratamientos, vacunas y hallazgos, dan esperanza para resolver dentro del 2020,  la obtención de una vacuna que permitiría volver a la normalidad "+
-          
           '<img src="../img/vacuna3.jpg" alt="vacuna">'+
           '<a href="https://cnnespanol.cnn.com/2020/07/20/buenas-noticias-en-la-lucha-contra-el-coronavirus-posibles-tratamientos-vacunas-y-hallazgos/" target="_blank"><img src="../img/cnn3.png" alt="vacuna"></a>',
           leermas:'paginas/sobre_tdchile.html',
