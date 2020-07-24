@@ -5,6 +5,10 @@ list-style: none;
 
 }
 
+#flokzu{
+  color:lightgrey;
+  font-size: 30px;
+}
 .clearfix{logo
   float: none;
   clear: both;
