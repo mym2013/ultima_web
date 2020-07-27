@@ -19,6 +19,14 @@ $(document).ready(function(){
         4-. un leer mas que agregue yo */
 
       var posts=[
+        { title:' Que son los DeepFakes, los rostros hechos por computadoras y que parecen personas reales.',
+          date: "publicado el día " + moment().date() +" "+ moment().format("MMMM") + "  del año " + moment().format("YYYY"),
+          content:"Qué son y como se distinguen las <i>deepfakes</i>, las caras creadas por computadoras que presentan personas que no existen, y que están presentes en redes sociales,"+
+          '<img src="../img/caras_fake.jpg" alt="caras_falsas">'+
+          '<a href="https://www.emol.com/noticias/Tecnologia/2020/07/25/992990/que-son-deepfakes-como-distinguir.html" target="_blank"><img src="../img/emol.jpg" alt="emol"></a>',
+          leermas:'paginas/sobre_tdchile.html',
+         
+        },
         { title:' Aprobado Retiro de Fondos de las AFP',
           date: "publicado el día " + moment().date() +" "+ moment().format("MMMM") + "  del año " + moment().format("YYYY"),
           content:"Se aprueba el retiro de fondos de las AFP, sepa cómo retirar su dinero"+
