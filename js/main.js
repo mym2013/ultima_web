@@ -5,6 +5,7 @@ $(document).ready(function(){
         mode: "fade",
         captions: true,
         slideWidth: 1200
+        
       });
 
 
