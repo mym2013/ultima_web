@@ -19,6 +19,15 @@ $(document).ready(function(){
         4-. un leer mas que agregue yo */
 
       var posts=[
+        { title:'Corporaciones y emprendedores una nueva dupla para el éxito.',
+        date: "publicado el día " + moment().date() +" "+ moment().format("MMMM") + "  del año " + moment().format("YYYY"),
+        content:"Nuevo estudio revela cómo las corporaciones pueden aumentar su capacidad y eficiencia trabajando con emprendedores,es la nueva estrategia que esta dándo buenos resultados."+
+        "Y que está tonificando el mercado de una nueva forma."+
+        '<img src="../img/corp_empre_2.jpg" alt="corporaciones_y_emprendedores">'+
+        '<a href="https://www.imnovation.com/es/noticias/2020/julio/estudio-revela-como-corporaciones-aumentan-capacidad-eficiencia-emprendedores" target="_blank"><img src="../img/sitioNews.jpg" alt="I´mnovation"></a>',
+        leermas:'paginas/sobre_tdchile.html',
+       
+      },
         { title:' Que son los DeepFakes, los rostros hechos por computadoras y que parecen personas reales.',
           date: "publicado el día " + moment().date() +" "+ moment().format("MMMM") + "  del año " + moment().format("YYYY"),
           content:"Qué son y como se distinguen las <i>deepfakes</i>, las caras creadas por computadoras que presentan personas que no existen, y que están presentes en redes sociales,"+
