@@ -21,7 +21,7 @@ $(document).ready(function(){
       var posts=[
         { title:'Corporaciones y emprendedores una nueva dupla para el éxito.',
         date: "publicado el día " + moment().date() +" "+ moment().format("MMMM") + "  del año " + moment().format("YYYY"),
-        content:"Nuevo estudio revela cómo las corporaciones pueden aumentar su capacidad y eficiencia trabajando con emprendedores,es la nueva estrategia que esta dándo buenos resultados."+
+        content:"Nuevo estudio revela cómo las corporaciones pueden aumentar su capacidad y eficiencia trabajando con emprendedores, la nueva estrategia que esta dándo buenos resultados."+
         "Y que está tonificando el mercado de una nueva forma."+
         '<img src="../img/corp_empre_2.jpg" alt="corporaciones_y_emprendedores">'+
         '<a href="https://www.imnovation.com/es/noticias/2020/julio/estudio-revela-como-corporaciones-aumentan-capacidad-eficiencia-emprendedores" target="_blank"><img src="../img/sitioNews.jpg" alt="I´mnovation"></a>',
