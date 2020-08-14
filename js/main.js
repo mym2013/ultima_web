@@ -23,15 +23,15 @@ $(document).ready(function(){
         date: "publicado el día " + moment().date() +" "+ moment().format("MMMM") + "  del año " + moment().format("YYYY"),
         content:"Nuevo estudio revela cómo las corporaciones pueden aumentar su capacidad y eficiencia trabajando con emprendedores, la nueva estrategia que esta dándo buenos resultados."+
         "Y que está tonificando el mercado de una nueva forma."+
-        '<img src="../img/corp_empre_2.jpg" alt="corporaciones_y_emprendedores">'+
+        '<img src="../img/corp_empre_2.jpg" alt="corporaciones_y_emprendedores" title="corporaciones mas emprendedores">'+
         '<a href="https://www.imnovation.com/es/noticias/2020/julio/estudio-revela-como-corporaciones-aumentan-capacidad-eficiencia-emprendedores" target="_blank"><img src="../img/sitioNews.jpg" alt="I´mnovation"></a>',
         leermas:'paginas/sobre_tdchile.html',
        
-      },
+        },
         { title:' Que son los DeepFakes, los rostros hechos por computadoras y que parecen personas reales.',
           date: "publicado el día " + moment().date() +" "+ moment().format("MMMM") + "  del año " + moment().format("YYYY"),
           content:"Qué son y como se distinguen las <i>deepfakes</i>, las caras creadas por computadoras que presentan personas que no existen, y que están presentes en redes sociales,"+
-          '<img src="../img/caras_fake.jpg" alt="caras_falsas">'+
+          '<img src="../img/caras_fake.jpg" alt="caras_falsas" title="Caras hechas por computador">'+
           '<a href="https://www.emol.com/noticias/Tecnologia/2020/07/25/992990/que-son-deepfakes-como-distinguir.html" target="_blank"><img src="../img/emol.jpg" alt="emol"></a>',
           leermas:'paginas/sobre_tdchile.html',
          
@@ -39,7 +39,7 @@ $(document).ready(function(){
         { title:' Aprobado Retiro de Fondos de las AFP',
           date: "publicado el día " + moment().date() +" "+ moment().format("MMMM") + "  del año " + moment().format("YYYY"),
           content:"Se aprueba el retiro de fondos de las AFP, sepa cómo retirar su dinero"+
-          '<img src="../img/retiroAFP3.jpg" alt="AFP">'+
+          '<img src="../img/retiroAFP3.jpg" alt="AFP" title="retiro afp">'+
           '<a href="https://www.t13.cl/noticia/nacional/retiro-pensiones-AFP-cuando-se-puede-cobrar-dinero-ley-24-07-2020" target="_blank"><img src="../img/canal13.jpg" alt="canal13"></a>',
           leermas:'paginas/sobre_tdchile.html',
          
@@ -47,7 +47,7 @@ $(document).ready(function(){
         { title:' Buenas noticias en la lucha contra el COVID 19',
           date: "publicado el día " + moment().date() +" "+ moment().format("MMMM") + "  del año " + moment().format("YYYY"),
           content:"posibles tratamientos, vacunas y hallazgos, dan esperanza para resolver dentro del 2020,  la obtención de una vacuna que permitiría volver a la normalidad "+
-          '<img src="../img/vacuna3.jpg" alt="vacuna">'+
+          '<img src="../img/vacuna3.jpg" alt="vacuna" title="vacuna covid">'+
           '<a href="https://cnnespanol.cnn.com/2020/07/20/buenas-noticias-en-la-lucha-contra-el-coronavirus-posibles-tratamientos-vacunas-y-hallazgos/" target="_blank"><img src="../img/cnn3.png" alt="vacuna"></a>',
           leermas:'paginas/sobre_tdchile.html',
         },

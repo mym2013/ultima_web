@@ -105,6 +105,11 @@ background-attachment: fixed;
 
    }
 
+   .post .content{
+     color :blue;
+     text-align: justify;
+   }
+
 
 .post h2 {
   font-size: 30px;
