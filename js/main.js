@@ -19,6 +19,16 @@ $(document).ready(function(){
         4-. un leer mas que agregue yo */
 
       var posts=[
+        { title:'Huawei el mayor fabricante chino se convirtío en #1 en ventas de smartphones del mundo.',
+        date: "publicado el día " + moment().date() +" "+ moment().format("MMMM") + "  del año " + moment().format("YYYY"),
+        content:"cómo el fabricante chino se convirtió en el mayor vendedor de teléfonos inteligentes en el mundo a pesar del veto de Estados Unidos. y parece que nada los detendrá."+
+        
+        '<img src="../img/tienda_Huawei.jpg" alt="Huawei lider en ventas de smartphones" title="numero uno en ventas de smartphones">'+
+        '<a href="https://www.bbc.com/mundo/noticias-53615276" target="_blank"><img src="../img/bbc_2.jpg" alt="BBC"></a>',
+        leermas:'paginas/sobre_tdchile.html',
+       
+        },
+
         { title:'Corporaciones y emprendedores una nueva dupla para el éxito.',
         date: "publicado el día " + moment().date() +" "+ moment().format("MMMM") + "  del año " + moment().format("YYYY"),
         content:"Nuevo estudio revela cómo las corporaciones pueden aumentar su capacidad y eficiencia trabajando con emprendedores, la nueva estrategia que esta dándo buenos resultados."+
