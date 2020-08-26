@@ -19,6 +19,16 @@ $(document).ready(function(){
         4-. un leer mas que agregue yo */
 
       var posts=[
+        { title:'Los cambios tecnológicos que debe enfrentar Chile en 2020',
+        date: "publicado el día " + moment().date() +" "+ moment().format("MMMM") + "  del año " + moment().format("YYYY"),
+        content:"Con un escenario impactado por el estallido social se prevé que durante este año no sólo se desarrollen en el país tecnologías que globalmente suenen fuerte, sino también que la preocupación sea cómo aprovechar al máximo el impacto positivo de estas sobre las personas. y los temas que marcaron la agenda 2019. "+
+        
+        
+        '<img src="../img/chile_2020.jpg" alt="Chile Tecnologías 2020" title="desafio tecnologico chile 2020">'+
+        '<a href="https://www.elmostrador.cl/agenda-pais/2020/01/06/los-cambios-tecnologicos-que-debe-enfrentar-chile-en-2020/" target="_blank"><img src="../img/mostrador.jpg" alt="BBC"></a>',
+        leermas:'paginas/sobre_tdchile.html',
+       
+        },
         { title:'Huawei el mayor fabricante chino se convirtío en #1 en ventas de smartphones del mundo.',
         date: "publicado el día " + moment().date() +" "+ moment().format("MMMM") + "  del año " + moment().format("YYYY"),
         content:"cómo el fabricante chino se convirtió en el mayor vendedor de teléfonos inteligentes en el mundo a pesar del veto de Estados Unidos. y parece que nada los detendrá."+
